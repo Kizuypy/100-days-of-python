@@ -8,7 +8,7 @@ Objetivos da semana:
 
 ## Dias
 - [Day 01](./Day_01) ✅
-- [Day 02](./Day_02) ⬜
+- [Day 02](./Day_02) ✅
 - [Day 03](./Day_03) ⬜
 - [Day 04](./Day_04) ⬜
 - [Day 05](./Day_05) ⬜

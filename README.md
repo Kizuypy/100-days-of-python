@@ -12,7 +12,7 @@ Este repositório acompanha meu aprendizado de **100 dias de Python**, com exerc
 
 ## Progresso
 - ✅ Week 01 / Day 01
-- ⬜ Week 01 / Day 02
+- ✅ Week 01 / Day 02
 - ⬜ Week 01 / Day 03
 
 > 💡 Meu objetivo: aprender Python de forma prática e consistente, registrando cada exercício e anotação.
