@@ -1,6 +1,44 @@
+# NÍVEL MÉDIO 🟡
+# EXERCÍCIO 3: Sistema de Carrinho de Compras com Descontos
+# Contexto: Lojas precisam calcular descontos progressivos e cupons.
+# Tarefa: Crie um programa que:
+
+# 1. Permita adicionar vários produtos ao carrinho:
+#    - Nome do produto (não pode ser vazio)
+#    - Valor do produto (deve ser maior que zero)
+#    - Quantidade (deve ser pelo menos 1)
+#    - Perguntar se quer adicionar mais produtos (s/n)
+
+# 2. Calcule o subtotal de cada produto:
+#    - Subtotal = valor × quantidade
+
+# 3. Após finalizar a compra, mostre:
+#    - Lista de todos os produtos com seus subtotais
+#    - Valor total da compra (soma de todos os subtotais)
+
+# 4. Sistema de desconto progressivo automático:
+#    - Compras até R$ 100,00: sem desconto (0%)
+#    - Compras de R$ 100,01 até R$ 500,00: 5% de desconto
+#    - Compras de R$ 500,01 até R$ 1000,00: 10% de desconto
+#    - Compras acima de R$ 1000,00: 15% de desconto
+
+# 5. Pergunte se o cliente tem cupom de desconto:
+#    - Cupons válidos: "PROMO10" (10% extra), "PROMO20" (20% extra)
+#    - O desconto do cupom é aplicado APÓS o desconto progressivo
+#    - Se o cupom for inválido, ignore e continue
+
+# 6. Mostre o resumo final:
+#    "Subtotal: R$ [VALOR]"
+#    "Desconto progressivo ([X]%): R$ [VALOR]"
+#    "Desconto cupom ([X]%): R$ [VALOR]"
+#    "TOTAL A PAGAR: R$ [VALOR]"
+
+# 7. Validações:
+#    - Valores e quantidades devem ser válidos (números positivos)
+#    - Se errar, pedir novamente
+
+
 carrinho = []
-
-
 
 while True:
 

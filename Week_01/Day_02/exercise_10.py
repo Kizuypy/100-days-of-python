@@ -1,3 +1,25 @@
+# NÍVEL MÉDIO 🟡
+# EXERCÍCIO 10: Jogo de Adivinhação com Níveis de Dificuldade
+# Contexto: Gamificação é usada em treinamentos corporativos.
+# Tarefa: Crie um jogo onde:
+
+# 1. No início, pergunte o nível de dificuldade:
+#    - Fácil: 1 a 50 (10 tentativas)
+#    - Médio: 1 a 100 (7 tentativas)
+#    - Difícil: 1 a 200 (5 tentativas)
+
+# 2. O jogo funciona igual ao fácil:
+#    - Sorteia número baseado no nível escolhido
+#    - Usuário tenta adivinhar
+#    - Diz "maior" ou "menor"
+#    - Limite de tentativas conforme dificuldade
+
+# 3. No final mostre:
+#    - Se ganhou ou perdeu
+#    - Quantas tentativas usou
+#    - Pergunte: "Jogar novamente? (s/n)"
+
+
 import random
 
 while True:
